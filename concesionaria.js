@@ -135,10 +135,6 @@ function ordenarDeMayorAMenor() {
     return ordenados;
 }
 
-/* vehiculos.forEach(element => {
-    console.log(`Marca: ${element.marca} // Modelo: ${element.modelo} // ${element.puertas ? 'Puertas: ' + element.puertas : 'Cilindrada: ' + element.cilindrada} // Precio: $${element.precio}`);
-}); */
-
 console.log(`${imprimirTodos()}=============================
 Vehículo más caro: ${vehiculoCaroOBarato('caro').marca} ${vehiculoCaroOBarato('caro').modelo}
 Vehículo más barato: ${vehiculoCaroOBarato('barato').marca} ${vehiculoCaroOBarato('barato').modelo}
@@ -146,5 +142,4 @@ Vehículo que contiene en el modelo la letra 'Y': ${contieneY().marca} ${contien
 =============================
 Vehículos ordenados por precio de mayor a menor:
 ${ordenarDeMayorAMenor()}
-
 `);
